@@ -24,7 +24,7 @@
 
 
   gsap.from("h4", {opacity: 0, y: 30, delay: 1.5, duration: 1});
-  gsap.from("a", {
+  gsap.from(".hero-link", {
     opacity: 0,
     delay: 2,
     duration: 2,
